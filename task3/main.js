@@ -7,5 +7,4 @@ const someFunction = () => console.log('Some function loaded');
         }
 	})
 })(someFunction)
-
 document.addEventListener('DOMContentLoaded', () => console.log('DOM loaded'));
