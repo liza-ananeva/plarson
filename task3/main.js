@@ -6,6 +6,6 @@ const someFunction = () => console.log('Some function loaded');
             func();
         }
     });
-    
 })(someFunction)
+
 document.addEventListener('DOMContentLoaded', () => console.log('DOM loaded'));
