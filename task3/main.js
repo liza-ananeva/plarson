@@ -2,7 +2,7 @@ const someFunction = () => console.log('Some function loaded');
 
 ((func) => {
     document.addEventListener('readystatechange', () => {
-		if (document.readyState === 'interactive'|| document.readyState === 'complete') {
+	if (document.readyState === 'interactive'|| document.readyState === 'complete') {
             func();
         }
     });
